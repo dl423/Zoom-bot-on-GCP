@@ -7,6 +7,10 @@
 ## Short Video Demo:
 
 
+https://github.com/dl423/Zoom-bot-on-GCP/assets/81783344/1c5cfcfd-d88d-438b-99b5-389bfc7329f9
+
+
+
 ## Technical implementation:
 - Programming language: Python
 - IDE used: IDLE
