@@ -4,6 +4,7 @@ import pyautogui
 import time
 from datetime import datetime
 
+# Locate a single match on the screen and click it
 def locate_click(img):
     location = pyautogui.locateCenterOnScreen(img)
     if location == None:
@@ -14,6 +15,7 @@ def locate_click(img):
     print("Detected and clicked according to", img)
     return 0
 
+# Locate all matches on the screen and click them
 def locate_all_click(img):
     location = pyautogui.locateAllOnScreen(img)
     if location == None:
