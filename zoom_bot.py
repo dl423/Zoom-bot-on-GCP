@@ -87,7 +87,7 @@ def leave_meeting():
     print("leave_meeting() completed\n")
     return
 
-def play_video(video, duration):
+def play_video(video, duration):  #duration is the length of time to play the video, in seconds
     print("play_video() started")
     time.sleep(1)
     os.startfile(video)
